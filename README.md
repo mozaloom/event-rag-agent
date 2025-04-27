@@ -1,4 +1,3 @@
-```markdown
 # event-rag-agent
 
 A minimal agentic RAG system that fetches guest details, weather, and model stats via LangGraph and a Hugging Face LLM.
@@ -35,5 +34,4 @@ A minimal agentic RAG system that fetches guest details, weather, and model stat
   ```
 
 ## License
-MIT
-```
+- This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
