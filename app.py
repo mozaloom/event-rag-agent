@@ -75,8 +75,6 @@ response = alfred.invoke({"messages": "One of our guests is from Qwen. What can 
 
 print("🎩 Alfred's Response:")
 print(response['messages'][-1].content)
-'''
-'''
 
 # First interaction
 response = alfred.invoke({"messages": [HumanMessage(content="Tell me about 'Lady Ada Lovelace'. What's her background and how is she related to me?")]})
