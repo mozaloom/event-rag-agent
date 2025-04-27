@@ -5,3 +5,4 @@ langchain
 langgraph
 langchain_huggingface
 huggingface_hub
+streamlit
