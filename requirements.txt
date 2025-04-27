@@ -1,8 +1,8 @@
-datasets 
-langchain-community 
-rank_bm25
-langchain
-langgraph
-langchain_huggingface
-huggingface_hub
-streamlit
+datasets==3.5.0       # for `import datasets` :contentReference[oaicite:0]{index=0}  
+langchain==0.3.24     # for core (`HumanMessage`, `Tool`, etc.) :contentReference[oaicite:1]{index=1}  
+langchain-community==0.3.22  # for BM25Retriever & DuckDuckGoSearchRun  
+langgraph==0.3.34     # for StateGraph, ToolNode, etc.  
+langchain-huggingface==0.1.2  # for HuggingFaceEndpoint & ChatHuggingFace  
+huggingface-hub==0.30.2  # for `list_models`  
+streamlit==1.44.1     # for the Streamlit UI :contentReference[oaicite:2]{index=2}  
+python-dotenv==1.1.0  # for `load_dotenv()`  
