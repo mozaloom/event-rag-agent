@@ -5,8 +5,8 @@ from typing import TypedDict, Annotated
 from langgraph.graph.message import add_messages
 from langchain_core.messages import AnyMessage, HumanMessage
 from langchain_huggingface import HuggingFaceEndpoint, ChatHuggingFace
-from retriever import guest_info_tool
-from tools import weather_info_tool, hub_stats_tool
+from mylib.retriever import guest_info_tool
+from mylib.tools import weather_info_tool, hub_stats_tool
 from langchain_community.tools import DuckDuckGoSearchRun
 from langgraph.prebuilt import ToolNode
 from langgraph.graph import START, StateGraph
