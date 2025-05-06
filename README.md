@@ -2,7 +2,7 @@
 
 A minimal agentic RAG (Retrieval-Augmented Generation) system that fetches guest details, weather, and model statistics via LangGraph and a Hugging Face LLM.
 
-![GitHub](https://img.shields.io/github/license/mozaloom/event-rag-agent)
+![GitHub](https://img.shields.io/github/license/mozaloom/event-rag-agent) [![Docker Image CI](https://github.com/mozaloom/event-rag-agent/actions/workflows/docker-hub.yml/badge.svg)](https://github.com/mozaloom/event-rag-agent/actions/workflows/docker-hub.yml) [![CI](https://github.com/mozaloom/event-rag-agent/actions/workflows/main.yml/badge.svg)](https://github.com/mozaloom/event-rag-agent/actions/workflows/main.yml)
 
 ## Overview
 
